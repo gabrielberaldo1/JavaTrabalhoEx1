@@ -15,9 +15,9 @@ public class Principal {
 		
 		//Conta Corrente do Cliente Especial
 		ContaCorrenteEspecial cce = new ContaCorrenteEspecial();
-		cce.depositar(70);
-		cce.saqueEspecial(10);
-		cce.obterSaldo();
+		//Saldo está definido em Conta Corrente Especial
+		cce.saqueEspecial(70);
+		cce.saldoClienteEspecial();
 		cce.getSaldo();
 	}
 
